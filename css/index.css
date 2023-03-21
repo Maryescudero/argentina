@@ -1,0 +1,9 @@
+/* comentarios */
+/* estructura para css */
+/* 1 seleccionamos un selector, elemento de html (head, body, footer, etc) */
+/* 2 elegimos la propiedad, color, forma */
+/* 3 asignamos un valor a la propiedad */
+/* esructura semantica */
+body{
+    background: rgb(223, 164, 176)
+}
