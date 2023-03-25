@@ -5,7 +5,22 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- link de pagina de estilos -->
    <link rel="stylesheet" href="./css/index.css">
+  <style>
+  header{
+   background: rebeccapurple;
+   color:rgb(80, 194, 14)
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap" rel="stylesheet">
+
+
+   li {
+      list-style-type: none;
+   }  
+  
+</style>
    <title>Clase 01 - HTML</title>
 </head>
 
@@ -21,10 +36,21 @@
 
    <nav>
       <ul>
-         <li><a href="./index.html">home</a></li>
-         <li><a href="./pages/productos.html">productos</a></li>
-         <li><a href="./pages/sucursales.html">sucursales</a></li>
-        <li><a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank">Argentina programa 2023</a></li>
+         <li>
+            <a href="./index.html">home</a>
+         </li>
+         <li>
+            <a href="./pages/productos.html">productos</a>
+         </li>
+         <li>
+            <a href="./pages/sucursales.html">sucursales</a>
+         </li>
+         <li>
+            <a href="./pages/trabajo grupal.html">trabajo grupal</a>
+         </li>
+        <li>
+            <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank">Argentina programa 2023</a>
+      </li>
       </ul>
 
    </nav>
@@ -34,7 +60,7 @@
 
       <!-- Estos son los titulos para las etiquetas -->
 
-      <h1> Clase 01 - HTML </h1>
+      <h1 style="color: coral;"> Clase 01 - HTML </h1>
       <h2>Hola</h2>
       <h3>Hola</h3>
       <h4>Hola</h4>
@@ -44,15 +70,23 @@
       <!-- etiqueta de seccion -->
       <section>
 
-         <h2> Las plantas </h2>
+         <h2 class="titulo"> Las plantas </h2>
          
 
       <!-- etiqueta de parrafo -->
-         <p>
+         <p class="primerParrafo">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus accusamus minima excepturi fuga aut expedita recusandae ducimus. Quam cumque necessitatibus dolor distinctio ipsa maiores accusantium natus aliquam, harum fugiat.
          </p>
 
          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui animi, quidem provident consectetur ipsam, enim non obcaecati, deserunt praesentium impedit et harum esse necessitatibus. Sapiente inventore quasi perferendis adipisci harum!
+
+         </p>
+         <p class="tercerParrafo">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque natus accusamus minima excepturi fuga aut expedita recusandae ducimus. Quam cumque necessitatibus dolor distinctio ipsa maiores accusantium natus aliquam, harum fugiat.
+         </p>
+
+         <p >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui animi, quidem provident consectetur ipsam, enim non obcaecati, deserunt praesentium impedit et harum esse necessitatibus. Sapiente inventore quasi perferendis adipisci harum!
 
          </p>
@@ -69,7 +103,11 @@
          <li>Planta cinco</li>
       </ul>
       <!-- archivo de imagen externa -->
+      <!-- guardo mi imagen en un contenedor para modificar -->
+      <div class="centrarImagen">
       <img src="http://c.files.bbci.co.uk/121DB/production/_109730247_gettyimages-1094263056-1.jpg">
+      </div>
+
       <video src="https://youtu.be/2g2Pm_CN7uc"></video>
       
 
@@ -79,7 +117,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo accusantium quidem aspernatur ullam quam natus asperiores, autem ex tempore et nesciunt distinctio a quibusdam dolores voluptatibus possimus repellendus laborum.
          </p>
 
-         <p>
+         <p id="cuartoParrafo">
          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo fugiat, <a href="./pages/productos.html#formulario"> vamos al formulario del sitio  </a> dolor quis voluptatibus ipsa quas repellat modi? Eius dignissimos voluptate nulla distinctio perspiciatis deleniti, accusamus quaerat rerum adipisci.  
          </p>
          <!-- listas ordenadas -->

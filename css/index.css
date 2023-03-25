@@ -3,7 +3,58 @@
 /* 1 seleccionamos un selector, elemento de html (head, body, footer, etc) */
 /* 2 elegimos la propiedad, color, forma */
 /* 3 asignamos un valor a la propiedad */
-/* esructura semantica */
-body{
+/* estructura semantica */
+
+* { /* reseteo el por defecto mi pagina y tipografia */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* para resetear todas las imagenes debo colocar
+img{
+    height:250px
+ } */
+
+body{ /* selector gral, indico que todo el body sea de ese color o forma */
     background: rgb(223, 164, 176)
+}
+p{
+    color: rgb(226, 13, 13);
+}
+/* selector de clases */
+
+
+.primerParrafo{
+    color: blue;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+    border-right: dashed 10px rebeccapurple;
+    border-left: dashed 10px rebeccapurple;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    text-justify: auto;
+}
+.tercerParrafo{
+    color: chartreuse;
+}
+/* selector ID */
+#cuartoParrafo{
+    color: black;
+}
+
+.titulo{
+    padding-left: 250px;
+}
+.centrarImagen{ /* modifico mi imagen */
+    text-align: center;
+    
+
 }

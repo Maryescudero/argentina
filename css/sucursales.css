@@ -1,0 +1,26 @@
+body{
+    background: rgb(223, 141, 157);
+}
+
+h1{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.padre{ /* me acomoda en lineas mis imagenes */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    border: solid 2px rgb(204, 28, 28);
+    justify-content: space-between;
+}
+.hijo{
+    /*  border: solid 2px black;*/
+    text-align: center;
+    margin-bottom: 25px;
+}
